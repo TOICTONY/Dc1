@@ -1,4 +1,4 @@
-FROM 5hojib/aeon:latest
+FROM TOICTONY/boomba:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
