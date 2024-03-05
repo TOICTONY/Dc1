@@ -52,7 +52,7 @@ if DATABASE_URL:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = 'https://github.com/TOICTONY/boomba'
+    UPSTREAM_REPO = 'https://TOICTONY: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@github.com/TOICTONY/boomba'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
